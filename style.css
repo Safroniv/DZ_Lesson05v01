@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    background: white;
+    font-family: sans-serif;
+}
+
+/*стить параграфа*/
+.pclass {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+
+
+.h1class {
+    font-size: 64px;
+    color: #1F3F68;
+
+}
+
+.h2class {
+    font-weight: 500px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3class {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4class {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+/*стиль полей ввода и блоков ввода*/
+.inputtextarea {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4
+}
+
+/*особый стить для класса submit*/
+.submit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header {
+
+    border: 3px solid darkred;
+}
+
+.header_top {
+    border: 3px solid blueviolet;
+
+}
+
+.header_menu {
+    border: 3px solid darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header_center {
+    border: 3px solid lightseagreen;
+    width: 510px;
+}
+
+.main {
+    order: 0;
+}
+
+.contacts {
+    order: 2;
+}
+
+.content {
+    order: 1;
+}
+
+.main_h1 {
+    width: 510px;
+
+}
+
+.main_text {
+    width: 425px;
+}
+
+.content {
+    border: 3px solid blueviolet;
+
+
+}
+
+.content_top {
+    border: 3px solid darkgreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_top_contacts {
+
+    border: 3px solid darkgreen;
+
+}
+
+.content_center_left {
+    border: 3px solid violet;
+    width: 359px;
+
+
+}
+
+.table_contacts {
+    border: 3px solid lightpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+
+
+.content_center_left_contacts {
+
+    border: 3px solid violet;
+    padding: 20px;
+
+
+}
+
+.content_center {
+    border: 3px solid darkred;
+
+}
+
+.footer {
+    border: 3px solid red;
+
+    max-width: 100%;
+}
+
+.footer_top {
+    border: 3px solid gray;
+
+
+}
+
+.footer_top_left {
+    border: 3px solid lightpink;
+    width: 495px;
+}
+
+.intersted {
+    width: 340px;
+}
+
+.paragraph_intersted {
+    width: 495px;
+}
+
+.footer_bottom {
+    border: 3px solid lightgreen;
+
+}
+
+.ul_string {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer_copyrights {
+    border: 3px solid lightgrey;
+
+}
+
+.map {
+    border: 3px solid rgb(120, 113, 113);
+
+}
