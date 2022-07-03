@@ -4,8 +4,9 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 body {
@@ -24,12 +25,34 @@ body {
 .h3class {
     font-size: 36px;
     text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 .h4class {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.pclass {
+    font-size: 16px;
+    color: #1F3F68;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.content_center_text {
+    width: 75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
 }
 
 /*стиль полей ввода и блоков ввода*/
@@ -56,8 +79,7 @@ body {
 .top {
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    display: flex;
-
+    background-position: bottom;
 }
 
 .main_top-box {
@@ -117,96 +139,136 @@ body {
     margin-top: 71px;
 }
 
-.content {
-    border: 3px solid rgb(226, 43, 43);
+.What-we-do {
+    padding-top: 64px;
 }
 
 
 .content_top {
-    border: 3px solid darkgreen;
+    padding-top: 64px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 64px;
 }
 
 .content_top_contacts {
-
     border: 3px solid darkgreen;
-
 }
 
-.content_center_left {
-    border: 3px solid violet;
+.content_center_card {
     width: 359px;
-
-
-}
-
-.table_contacts {
-    border: 3px solid lightpink;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
     display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+    flex-direction: column;
 }
 
+.content_img_card {
+    align-self: center;
+    margin-bottom: 51px;
+}
 
+.card_link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
 
+.project_block {
+    position: relative;
+    flex-grow: 1;
+}
 
-.content_center_left_contacts {
+.project_block_margin {
+    margin-right: 32px;
+}
 
-    border: 3px solid violet;
-    padding: 20px;
-
+.project_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
 
 }
 
-.content_center {
-    border: 3px solid darkred;
+.project_block_text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
 
+.project_block_text_box {
+    font-size: 28px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.project_img {
+    width: 100%;
 }
 
 .footer {
-    border: 3px solid red;
-
-    max-width: 100%;
+    background: #316099;
 }
 
-.footer_top {
-    border: 3px solid gray;
-
-
-}
-
-.footer_top_left {
-    border: 3px solid lightpink;
-    width: 495px;
+.footer_h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 .intersted {
     width: 340px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
 .paragraph_intersted {
     width: 495px;
-}
-
-.footer_bottom {
-    border: 3px solid lightgreen;
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
 }
 
 .ul_string {
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    list-style-type: decimal;
+    padding: 64px 16px;
 }
 
 .footer_copyrights {
-    border: 3px solid lightgrey;
-
-}
-
-.map {
-    border: 3px solid rgb(120, 113, 113);
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
