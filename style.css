@@ -14,19 +14,6 @@ body {
 }
 
 /*стить параграфа*/
-.pclass {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
-}
-
-
-
-.h1class {
-    font-size: 64px;
-    color: #1F3F68;
-
-}
 
 .h2class {
     font-weight: 500px;
@@ -66,55 +53,72 @@ body {
     text-transform: uppercase;
 }
 
-.header {
-
-    border: 3px solid darkred;
-}
-
-.header_top {
-    border: 3px solid blueviolet;
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    display: flex;
 
 }
 
-.header_menu {
-    border: 3px solid darkgreen;
+.main_top-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main_header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 42px;
 }
 
-.header_center {
-    border: 3px solid lightseagreen;
+.main_top {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right 115px;
+}
+
+.main_top_h1 {
     width: 510px;
+    font-size: 64px;
+    font-weight: 300;
+    color: #1F3F68;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
 }
 
-.main {
-    order: 0;
+.text {
+    font-size: 16px;
+    color: #1F3F68;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
 }
 
-.contacts {
-    order: 2;
-}
-
-.content {
-    order: 1;
-}
-
-.main_h1 {
-    width: 510px;
-
-}
-
-.main_text {
+.main_top_text {
     width: 425px;
 }
 
+.main_top_buttom {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
 .content {
-    border: 3px solid blueviolet;
-
-
+    border: 3px solid rgb(226, 43, 43);
 }
 
 .content_top {
