@@ -141,6 +141,8 @@ body {
 
 .What-we-do {
     padding-top: 64px;
+
+
 }
 
 
@@ -148,6 +150,7 @@ body {
     padding-top: 64px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 64px;
 }
 
