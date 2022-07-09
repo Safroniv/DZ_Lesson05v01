@@ -11,13 +11,13 @@
 
 body {
     background: white;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*стить параграфа*/
 
 .h2class {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
