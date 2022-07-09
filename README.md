@@ -2,4 +2,4 @@
 
 Создание сайта на бесплатном хостинге:
 
-[Сайт на хостинге](http://h92622dm.beget.tech/index.html){:target="_blank"}.
+[Сайт на хостинге](http://h92622dm.beget.tech/index.html).
